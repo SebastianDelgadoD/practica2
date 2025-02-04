@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SaborArte - Ingredientes</title>
+        <title>SaborArte - Contacto</title>
         <meta charset="UTF-8">
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>        
     </head>
     <body>
         <header>
@@ -16,38 +16,36 @@
                     <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="ubicaciones.html">Ubicaciones</a></li>
                     <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="blog.html">Blog</a></li>
                     <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="nosotros.html">Nosotros</a></li>
-                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="servicios.html">Servicios</a></li>    
                     <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="contacto.html">Contacto</a></li>                    
-                    
+                   
                 </ul>
             </nav>
         </header>
         
         <aside>
-            <h1 style="text-align: center; background-color: #4CAF50;color: white">Ingredientes</h1>
-        <h2>Lista de ingredientes esenciales</h2>
+        <h1 style="text-align: center;background-color: #D32F2F;color: white">Contacto</h1>
+        <h2>Ponte en contacto con nosotros</h2>
         </aside>
         
         <section>
-        <h3>Ingredientes basicos</h3>
-        <ul>
-            <li>Harina</li>
-            <li>Leche</li>
-            <li>Huevos</li>
-            <li>Mantequilla</li>
-        </ul>
-        <h3>Especias y condimentos</h3>
-        <ol>
-            <li>Sal</li>
-            <li>Pimientos</li>
-            <li>Oregano</li>
-            <li>Ajo en polvo</li>
-        </ol>
-
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+                
+                <label for="correo">Correo electronico:</label>
+                <input type="email" id="correo" name="correo" required><br>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </section>
         
         <footer>
             &COPY; SaborArte 2025 Todos los Derechos Reservados
         </footer>
+       
     </body>
 </html>
